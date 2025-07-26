@@ -25,3 +25,6 @@ This approach avoids the need for sorting or using extra space for a set, making
     * `sum(nums)` takes O(n) time to iterate through the list.
     * `sum(range(len(nums) + 1))` also takes O(n) time.
     * The overall complexity is dominated by these two operations.
+ 
+* **Space Complexity: O(1)**
+    * This solution uses a constant amount of extra space to store the sums, regardless of the size of the input array.

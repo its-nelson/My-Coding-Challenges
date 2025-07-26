@@ -3,3 +3,4 @@ def missingNumber(nums):
     expected_sum = sum(range(len(nums) + 1))
     actual_sum = sum(nums)
     return expected_sum - actual_sum
+    #Easier way to write this: return sum(range(len(nums) + 1)) - sum(nums)
