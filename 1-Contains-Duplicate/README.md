@@ -8,20 +8,19 @@ Given an integer array `nums`, return `true` if any value appears at least twice
 ---
 ## My Approach and Thought Process
 
-My strategy relies on the core property of a **Set**: it cannot contain duplicate elements.
+My strategy relies on the core property of a **Set**: it cannot contain duplicate elements. This provides a very efficient way to solve the problem.
 
 The logic is as follows:
-1.  Initialize an empty set, `set_of_nums`.
-2.  Iterate through each number in the input list `nums` and add it to the set. The set automatically handles duplicates; if a number is already present, the set remains unchanged.
-3.  After the loop, compare the length of the original `nums` list with the final length of `set_of_nums`.
-4.  If the lengths are different, it confirms that at least one duplicate element was present in the original list. In this case, return `true`.
-5.  If the lengths are the same, every element was unique. Therefore, return `false`.
+1.  Convert the entire input list `nums` into a set in a single, direct operation: `set(nums)`. This automatically handles the removal of any duplicate values.
+2.  Compare the length of the newly created set with the length of the original `nums` list.
+3.  If the lengths are **not equal**, it confirms that elements were discarded during the set conversion, which only happens if duplicates were present. In this case, return `true`.
+4.  If the lengths are **equal**, it means every element from the original list was unique and made it into the set. Therefore, return `false`.
 
 ---
 ## Complexity Analysis
 
 * **Time Complexity: O(n)**
-    * We iterate through the `nums` array of *n* elements once to build the set. Each `.add()` operation to a set takes O(1) time on average.
+    * Building a set from a list of *n* elements takes O(n) time, as each element must be processed.
 
 * **Space Complexity: O(n)**
     * In the worst-case scenario where all elements are unique, the `set_of_nums` will grow to store all *n* elements from the input array.
