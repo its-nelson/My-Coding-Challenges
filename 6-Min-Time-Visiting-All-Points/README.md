@@ -21,7 +21,7 @@ Let's consider two consecutive points, `P1(x1, y1)` and `P2(x2, y2)`.
 
 1.  **Calculate Differences:** Determine the absolute horizontal distance `dx = |x2 - x1|` and the absolute vertical distance `dy = |y2 - y1|`.
 2.  **Optimal Movement Strategy:**
-    * The total time to move from `P1` to `P2` is `max(dx, dy)` which is known as the Chebshev distance / Chessboard distance.
+    * The total time to move from `P1` to `P2` is `max(dx, dy)` which is known as the Chebyshev distance / Chessboard distance.
 
 My solution uses this insight:
 
