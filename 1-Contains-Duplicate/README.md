@@ -17,6 +17,24 @@ The logic is as follows:
 4.  If the lengths are **equal**, it means every element from the original list was unique and made it into the set. Therefore, return `false`.
 
 ---
+## Sample Output
+
+* **Example 1**
+    nums = [1,2,3,1]
+    Output = `True`
+    The element `1` occurs at the indices `0` and `3`
+
+* **Example 2**
+    nums = [1,2,3,4]
+    Output = `False`
+    No element is repeated.
+
+* **Example 3**
+    nums = [1,1,1,3,3,4,3,2,4,2]
+    Output = `True`
+    Each element in nums is repeated at least `twice`.
+
+---
 ## Complexity Analysis
 
 * **Time Complexity: O(n)**
