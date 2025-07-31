@@ -8,3 +8,9 @@ def findDisappearedNumber(nums):
         if num not in set_of_nums:
             disappeared_nums.append(num)
     return disappeared_nums
+
+# Example 1
+print(findDisappearedNumber([4,3,2,7,8,2,3,1]))
+
+# Example 2
+print(findDisappearedNumber([1,1]))
