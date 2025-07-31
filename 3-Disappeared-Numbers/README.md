@@ -6,6 +6,23 @@
 Given an array `nums` of `n` integers where `nums[i]` is in the range `[1, n]`, return an array of all the integers in the range `[1, n]` that do not appear in `nums`.
 
 ---
+## Sample Output
+
+### Example 1
+```
+Input: nums = [4,3,2,7,8,2,3,1]
+Output: [5,6]
+Explanation: n = 8 since there are 8 numbers. The numbers missing from the range [1,8] are 5 and 6 since they do not appear in nums.
+```
+
+### Example 2
+```
+Input: nums = [1,1]
+Output: [2]
+Explanation: n = 2 since there are 2 numbers. The number missing from the range [1,2] is 2 since it does not appear in nums.
+```
+
+---
 ## My Approach and Thought Process
 
 The goal is to identify which numbers are missing from the input array, given that the array should contain numbers from `1` to `n`.
