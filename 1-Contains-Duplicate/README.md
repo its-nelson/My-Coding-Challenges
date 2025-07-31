@@ -19,21 +19,26 @@ The logic is as follows:
 ---
 ## Sample Output
 
-* **Example 1**
-    nums = [1,2,3,1]
-    Output = `True`
-    The element `1` occurs at the indices `0` and `3`
+### Example 1
+```
+Input: nums = [1,2,3,1]
+Output: True
+Explanation: The element 1 appears twice.
+```
 
-* **Example 2**
-    nums = [1,2,3,4]
-    Output = `False`
-    No element is repeated.
+### Example 2
+```
+Input: nums = [1,2,3,4]
+Output: False
+Explanation: No element is repeated.
+```
 
-* **Example 3**
-    nums = [1,1,1,3,3,4,3,2,4,2]
-    Output = `True`
-    Each element in nums is repeated at least `twice`.
-
+### Example 3
+```
+Input: nums = [1,1,1,3,3,4,3,2,4,2]
+Output: True
+Explanation: Each element in nums is repeated at least twice.
+```
 ---
 ## Complexity Analysis
 
