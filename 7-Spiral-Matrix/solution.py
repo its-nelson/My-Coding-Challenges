@@ -12,3 +12,9 @@ def spiralOrder(matrix):
             for row in matrix[::-1]:
                 ret.append(row.pop(0))
     return ret
+
+# Example 1
+print(spiralOrder([[1,2,3],[4,5,6],[7,8,9]]))
+
+# Example 2
+print(spiralOrder([[1,2,3,4],[5,6,7,8],[9,10,11,12]]))
