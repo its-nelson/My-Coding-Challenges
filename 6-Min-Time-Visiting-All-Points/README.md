@@ -13,6 +13,29 @@ You have to visit the points in the same order as they appear in the array.
 You are allowed to pass through points that appear later in the order, but these do not count as visits.
 
 ---
+## Sample Output
+
+### Example 1
+```
+Input: points = [[1,1],[3,4],[-1,0]]
+Output: 7
+Explanation: 
+Optimal path is [1,1] -> [2,2] -> [3,3] -> [3,4] -> [2,3] -> [1,2] -> [0,1] -> [-1,0]   
+Time from [1,1] to [3,4] = 3 seconds 
+Time from [3,4] to [-1,0] = 4 seconds
+Total time = 7 seconds
+```
+
+### Example 2
+```
+Input: points = [[3,2],[-2,2]]
+Output: 5
+Optimal path is [3,2] -> [2,2] -> [1,2] -> [0,2] -> [-1,2] -> [-2,2]  
+Time from [3,2] to [-2,2] = 5 seconds 
+Total time = 5 seconds
+```
+
+---
 ## My Approach and Thought Process
 
 The problem asks for the minimum time to travel between a sequence of points on a 2D plane, with specific rules for movement: horizontal, vertical, and diagonal moves all take 1 second. The key to minimizing time between any two points is to utilize diagonal moves as much as possible, as they simultaneously cover both horizontal and vertical distance.
