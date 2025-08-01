@@ -10,6 +10,30 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
 
 ---
+## Sample Output
+
+### Example 1
+```
+Input: nums = [2,7,11,15], target = 9
+Output: [1,0]
+Explanation: Because nums[1] + nums[0] == 9, we return [1, 0].
+```
+
+### Example 2
+```
+Input: nums = [3,2,4], target = 6
+Output: [2,1]
+Explanation: Because nums[2] + nums[1] == 6, we return [2,1].
+```
+
+### Example 3
+```
+Input: nums = [3,3], target = 6
+Output: [1,0]
+Explanation: Because nums[1] + nums[0] == 6, we return [1,0].
+```
+
+---
 ## My Approach and Thought Process
 
 The core idea is to find two numbers in the array `nums` that sum up to the given `target`. A brute-force approach (checking every pair) would be O(n^2), which can be inefficient for larger inputs.
