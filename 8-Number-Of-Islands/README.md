@@ -7,6 +7,31 @@
 Given an `m x n` 2D binary grid `grid` which represents a map of `'1'`s (land) and `'0'`s (water), return the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
 
 ---
+## Sample Output
+
+### Example 1
+```
+Input: grid = [
+  ["1","1","1","1","0"],
+  ["1","1","0","1","0"],
+  ["1","1","0","0","0"],
+  ["0","0","0","0","0"]
+]
+Output: 1
+```
+
+### Example 2
+```
+Input: grid = [
+  ["1","1","0","0","0"],
+  ["1","1","0","0","0"],
+  ["0","0","1","0","0"],
+  ["0","0","0","1","1"]
+]
+Output: 3
+```
+
+---
 ## My Approach and Thought Process
 This problem can be modeled as finding the number of connected components in a graph. Each `'1'` is a node, and adjacent `'1'`s have an edge between them. My strategy is to iterate through every cell of the grid and, upon finding a piece of land (`'1'`) that I haven't visited yet, I initiate a **Breadth-First Search (BFS)** to find all connected parts of that same island.
 
