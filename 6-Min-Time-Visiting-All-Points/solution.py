@@ -11,7 +11,7 @@ def minTimeToVisitAllPoints(points):
     return counter
 
 # Example 1
-print(minTimeToVisitAllPoints([[1,1],[3,4],[-1,0]]))
+print(f"Example 1\nOutput:\n{minTimeToVisitAllPoints([[1,1],[3,4],[-1,0]])}\n")
 
 # Example 2
-print(minTimeToVisitAllPoints([[3,2],[-2,2]]))
+print(f"Example 2\nOutput:\n{minTimeToVisitAllPoints([[3,2],[-2,2]])}\n")

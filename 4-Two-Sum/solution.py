@@ -8,10 +8,10 @@ def twoSum(nums, target):
         nums_hashmap[num] = i
 
 # Example 1
-print(twoSum([2,7,11,15], 9))
+print(f"Example 1\nOutput:\n{twoSum([2,7,11,15], 9)}\n")
 
 # Example 2
-print(twoSum([3,2,4], 6))
+print(f"Example 2\nOutput:\n{twoSum([3,2,4], 6)}\n")
 
 # Example 3
-print(twoSum([3,3], 6))
+print(f"Example 3\nOutput:\n{twoSum([3,3], 6)}\n")

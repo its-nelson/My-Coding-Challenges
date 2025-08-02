@@ -14,7 +14,7 @@ def spiralOrder(matrix):
     return ret
 
 # Example 1
-print(spiralOrder([[1,2,3],[4,5,6],[7,8,9]]))
+print(f"Example 1\nOutput:\n{spiralOrder([[1,2,3],[4,5,6],[7,8,9]])}\n")
 
 # Example 2
-print(spiralOrder([[1,2,3,4],[5,6,7,8],[9,10,11,12]]))
+print(f"Example 2\nOutput:\n{spiralOrder([[1,2,3,4],[5,6,7,8],[9,10,11,12]])}\n")

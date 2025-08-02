@@ -15,10 +15,10 @@ def smallerNumbersThanCurrent(nums):
     return smaller_nums
 
 # Example 1
-print(smallerNumbersThanCurrent([8,1,2,2,3]))
+print(f"Example 1\nOutput:\n{smallerNumbersThanCurrent([8,1,2,2,3])}\n")
 
 # Example 2
-print(smallerNumbersThanCurrent([6,5,4,8]))
+print(f"Example 2\nOutput:\n{smallerNumbersThanCurrent([6,5,4,8])}\n")
 
 # Example 3
-print(smallerNumbersThanCurrent([7,7,7,7]))
+print(f"Example 3\nOutput:\n{smallerNumbersThanCurrent([7,7,7,7])}\n")

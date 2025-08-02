@@ -32,18 +32,18 @@ def numIslands(grid):
     return counter
 
 #Example 1
-print(numIslands([
+print(f"Example 1\nOutput:\n{numIslands([
   ["1","1","1","1","0"],
   ["1","1","0","1","0"],
   ["1","1","0","0","0"],
   ["0","0","0","0","0"]
-]))
+])}\n")
 
 # Example 2
-print(numIslands([
+print(f"Example 2\nOutput:\n{numIslands([
   ["1","1","0","0","0"],
   ["1","1","0","0","0"],
   ["0","0","1","0","0"],
   ["0","0","0","1","1"]
-]))
+])}\n")
 

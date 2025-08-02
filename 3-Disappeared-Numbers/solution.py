@@ -10,7 +10,7 @@ def findDisappearedNumber(nums):
     return disappeared_nums
 
 # Example 1
-print(findDisappearedNumber([4,3,2,7,8,2,3,1]))
+print(f"Example 1\nOutput:\n{findDisappearedNumber([4,3,2,7,8,2,3,1])}\n")
 
 # Example 2
-print(findDisappearedNumber([1,1]))
+print(f"Example 2\nOutput:\n{findDisappearedNumber([1,1])}\n")
